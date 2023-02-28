@@ -1,0 +1,36 @@
+@import url('https://fonts.googleapis.com/css?family=Source+Sans+Pro:regular,bold,italic&subset=latin,latin-ext');
+
+body{
+  font-family: "source sans pro", "sans-serif";
+  margin:0;
+  padding: 0;
+  text-decoration: none;
+  list-style: none;
+  outline: none;
+  background: rgba(128, 0, 128, 0.253) ;
+}
+.ml-25{
+  margin: 0px 25px;
+}
+
+#nav-dropdown{
+  color: white;
+  font-weight: bold;
+}
+.w-10{
+  width: 10%!important;
+}
+
+.search-bar{
+  margin: 10px;
+    justify-content: flex-end;
+    display: flex;
+}
+
+.search-form{
+  display: inline-flex
+}
+input[type="search"]::-webkit-search-cancel-button {
+  /* -webkit-appearance: none; */
+  cursor: pointer;
+}
